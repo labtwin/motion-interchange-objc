@@ -13,7 +13,8 @@ let package = Package(
     targets: [
         .target(
         	name: "MotionInterchange",
-        	path: "src/"
+        	path: "src/",
+            publicHeadersPath:"src"
         )
     ],
     swiftLanguageVersions: [.v5]
